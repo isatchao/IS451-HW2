@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Movies and Series Data</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Carmen+Sans:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Netflix Movies and Series</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="content.html">Overview</a></li>
+                    <li><a href="#">Discussion</a></li>
+                    <li><a href="#">Learn More</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="video-section">
+        <div class="video-wrapper">
+            <video class="background-video" width="100%" height="auto" autoplay loop muted>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay">
+                <h2>SEE WHAT'S NEXT</h2>
+                <a href="content.html" class="overlay-button">Explore</a>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <section class="overview">
+                <h2>Overview</h2>
+                <div class="description">
+                    <h3>Description</h3>
+                    <p>Best movies and TV shows on Netflix (May 2022)</p>
+                </div>
+                <div class="summary">
+                    <h3>Summary</h3>
+                    <p>This project contains 6 tables. The main 2 tables are <strong>raw_credits</strong> and <strong>raw_titles</strong>.</p>
+                    <p>I built 4 different models using the raw tables:</p>
+                    <ul>
+                        <li><strong>Best Movie by Year Netflix</strong>: This model contains the best movie by year. The criteria applied to consider this table is at least 25,000 votes ordered by IMDb score ranking of 1.</li>
+                        <li><strong>Best Show by Year Netflix</strong>: This model contains the best TV show by year. The criteria applied to consider this table is at least 25,000 votes ordered by IMDb score ranking of 1.</li>
+                        <!-- Add other models as needed -->
+                    </ul>
+                </div>
+            </section>
+            <section class="dataset-info">
+                <h2>About this dataset</h2>
+                <ul>
+                    <li><strong>Shared with:</strong> Everyone</li>
+                    <li><strong>Created:</strong> 2 years ago by @gonzandrobes</li>
+                    <li><strong>Size:</strong> 4.21 MB <a href="#">Download</a></li>
+                    <li><strong>Tags:</strong> netflix, movies, tvshow</li>
+                    <li><strong>License:</strong> Public Domain</li>
+                </ul>
+                <a href="#">Related project: Netflix Movies Report_Project (2023)</a>
+                <div class="recent-updates">
+                    <h3>Recent updates</h3>
+                    <ul>
+                        <li>@andreaguzman created the topic netflix-movies-and-series. 2 years ago</li>
+                        <li>@gonzandrobes updated the tags. 2 years ago</li>
+                        <li>@gonzandrobes updated the summary. 2 years ago</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="files">
+                <h2>6 files</h2>
+                <div class="file-list">
+                    <a href="#">Best Movie by Year Netflix.csv</a>
+                    <!-- Add other files as needed -->
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Looking for data.world for the enterprise? See how data.world works with the enterprise to improve data work.</p>
+        </div>
+    </footer>
+    <div class="floating-banner">
+        <p>Explore more datasets on data.world. <a href="#">Learn more</a></p>
+    </div>
+</body>
+</html>
